@@ -1,5 +1,10 @@
 # Online Quiz and Feedback Form Web Application
 
+## Prerequisites
+- Visual Studio 2022
+- .NET Framework 4.7 or later
+- SQL Server (Express or full version)
+
 ## Project Overview
 This is an **ASP.NET Web Forms** project that implements an **online quiz form** along with a **feedback form**. Users can take quizzes online, submit their answers, and provide feedback about the quiz or website. The application demonstrates basic CRUD operations, form validation, and server-side processing using ASP.NET Web Forms.
 
@@ -10,12 +15,30 @@ This is an **ASP.NET Web Forms** project that implements an **online quiz form**
 - **Feedback form** for users to provide comments or suggestions.
 - **ASP.NET Web Forms** backend with C#.
 - **Data storage** using SQL Server (or your preferred database).
+  
+## Project Structure
 
-
-## Prerequisites
-- Visual Studio 2019 or later
-- .NET Framework 4.7 or later
-- SQL Server (Express or full version)
+FeedbackForm/                 
+├── App_Data/                
+├── App_Start/                
+├── Content/                  
+├── Scripts/                 
+├── About.aspx               
+├── Contact.aspx              
+├── Default.aspx             
+├── FeedbackForm.aspx         
+│   ├── FeedbackForm.aspx.cs
+│   └── FeedbackForm.aspx.designer.cs
+├── QuizForm.aspx           
+│   ├── QuizForm.aspx.cs
+│   └── QuizForm.aspx.designer.cs
+├── Site.Master              
+├── Site.Mobile.Master       
+├── ViewSwitcher.ascx         
+├── Global.asax              
+├── Web.config               
+├── Bundle.config            
+└── packages.config           
 
 ## Setup Instructions
 1. **Clone the repository**
