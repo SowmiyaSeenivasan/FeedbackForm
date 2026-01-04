@@ -21,23 +21,23 @@ This is an **ASP.NET Web Forms** project that implements an **online quiz form**
 1. **Clone the repository**
 git clone https://github.com/<your-username>/<repository-name>.git
 
-2. ## Open the project in Visual Studio##
+2. **Open the project in Visual Studio**
 
-3. ## Configure database connection##
+3. **Configure database connection**
 
         -Update the connection string in Web.config to point to your SQL Server instance.
 
-4. ## Run the application##
+4. **Run the application**
 
         -Press F5 in Visual Studio to run the project locally.
 
-5. ## Access the pages##
+5. **Access the pages**
 
        -Quiz: http://localhost:<port>/Quiz.aspx
 
        -Feedback Form: http://localhost:<port>/FeedbackForm.aspx
 
-## Usage ##
+## Usage
 
 Users can take quizzes by selecting answers and submitting the form.
 
